@@ -21,6 +21,9 @@
                             IMPORTANT: Be sure to import the file for the correct pricelist (You can not select the pricelist in this wizard, 
                             but the system will use the pricelist selected in this view)
                         </p>
+                        <p>
+                            test para validar si esta funcionando el cambio de rama
+                        </p>
                     </div>
                 </header>
                 <group>
