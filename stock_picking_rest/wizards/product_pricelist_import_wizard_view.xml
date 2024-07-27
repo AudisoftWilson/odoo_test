@@ -29,7 +29,13 @@
                     <field name="file_name" invisible="1"/>
                 </group>
                 <footer>
-                    <button string="Import" type="object" name="import_pricelist" class="btn-primary" default_focus="1"/>
+                    <button string="Import" 
+                            type="object" 
+                            name="import_pricelist" 
+                            class="btn-primary" 
+                            default_focus="1"
+                            confirm="Are you sure you want to import the pricelist? This action will update all the prices in the pricelist referenced in the excel file."
+                            />
                     <button string="Cancel" class="btn-secondary" special="cancel"/>
                 </footer>
             </form>
